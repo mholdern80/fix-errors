@@ -10,9 +10,9 @@ var people = [
     { name: "Betty", age: 37 }
     ]
 
-var nameFilter = function(name) {
-    let name = "Eric"
-    for (let i = 0; i < people.length; i++) {
+var nameFilter = function(filteredName) {
+    
+    for (var i = 0; i < people.length; i++) {
         let name = people[i].name
         if (name != filteredName) {
             console.log("My Name is " + name)
