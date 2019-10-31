@@ -1,7 +1,7 @@
 var nam;
 
 function printName (){
-  console.log(name)
+  console.log(nam)
 }
 
 printName();
